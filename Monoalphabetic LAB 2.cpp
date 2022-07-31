@@ -41,8 +41,11 @@ int main(){
             index++;
         }
     }
+    cout<<endl;
+    cout<<"KEY || VALUE"<<endl;
+    cout<<endl;
     for(int i = 0 ;i<assigned.length();i++){
-        cout<<assigned[i]<<" "<<mapKey[assigned[i]]<<endl;
+        cout<<assigned[i]<<"   ||   "<<mapKey[assigned[i]]<<endl;
     }
     cout<<endl;
     cout<<"----ENCRYPTED TEXT----"<<endl;
