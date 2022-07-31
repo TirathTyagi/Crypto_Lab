@@ -9,6 +9,7 @@ char decrypt(unordered_map<char,char> map,char a){
         if(iterate->second == a){
             c = iterate->first;
         }
+        iterate++;
     }
     return c;
 }
@@ -52,5 +53,16 @@ int main(){
         }
         a[i] = mapKey[a[i]];
     }
+    cout<<a<<endl;
+    for(int i = 0;i<a.length();i++){
+        if(a[i] == ' '){
+            continue;
+        }
+        char c = decrypt(mapKey,a[i]);
+        a[i] = c;
+    }
+    cout<<endl;
+    cout<<"----DECRYPTED TEXT----"<<endl;
+    cout<<endl;
     cout<<a;
 }
