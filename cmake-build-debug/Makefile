@@ -141,6 +141,19 @@ Mono/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mono.dir\build.make CMakeFiles/Mono.dir/build
 .PHONY : Mono/fast
 
+#=============================================================================
+# Target rules for targets named playFair
+
+# Build rule for target.
+playFair: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 playFair
+.PHONY : playFair
+
+# fast build rule for target.
+playFair/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\playFair.dir\build.make CMakeFiles/playFair.dir/build
+.PHONY : playFair/fast
+
 Monoalphabetic_LAB_2.obj: Monoalphabetic_LAB_2.cpp.obj
 .PHONY : Monoalphabetic_LAB_2.obj
 
@@ -189,6 +202,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Applied_Cryptography.dir\build.make CMakeFiles/Applied_Cryptography.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+playfair.obj: playfair.cpp.obj
+.PHONY : playfair.obj
+
+# target to build an object file
+playfair.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\playFair.dir\build.make CMakeFiles/playFair.dir/playfair.cpp.obj
+.PHONY : playfair.cpp.obj
+
+playfair.i: playfair.cpp.i
+.PHONY : playfair.i
+
+# target to preprocess a source file
+playfair.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\playFair.dir\build.make CMakeFiles/playFair.dir/playfair.cpp.i
+.PHONY : playfair.cpp.i
+
+playfair.s: playfair.cpp.s
+.PHONY : playfair.s
+
+# target to generate assembly for a file
+playfair.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\playFair.dir\build.make CMakeFiles/playFair.dir/playfair.cpp.s
+.PHONY : playfair.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -199,12 +236,16 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Applied_Cryptography
 	@echo ... Mono
+	@echo ... playFair
 	@echo ... Monoalphabetic_LAB_2.obj
 	@echo ... Monoalphabetic_LAB_2.i
 	@echo ... Monoalphabetic_LAB_2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... playfair.obj
+	@echo ... playfair.i
+	@echo ... playfair.s
 .PHONY : help
 
 

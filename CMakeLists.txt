@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Applied_Cryptography main.cpp)
 add_executable(Mono "Monoalphabetic LAB 2.cpp")
+add_executable(playFair playfair.cpp)
