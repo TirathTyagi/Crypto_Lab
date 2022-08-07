@@ -2,6 +2,73 @@
 #include<string>
 #include<vector>
 using namespace std;
+string encrypt(vector<string> keyMap,string arr[5][5]){
+    for(int i = 0;i<keyMap.size();i++){
+        string x = keyMap.at(i);
+        char a = x[0];
+        char b = x[1];
+        int coorda;
+        int coorda1;
+        int coordb;
+        int coordb1;
+        cout<<a<<" "<<b<<endl;
+        for(int j = 0;j<5;j++){
+            for(int k = 0;k<5;k++){
+                if(arr[j][k].find(a)!=-1){
+                    coorda = j;
+                    coorda1 = k;
+                }
+                if(arr[j][k].find(b)!=-1){
+                    coordb = j;
+                    coordb1 = k;
+                }
+            }
+        }
+        if(coorda == coordb){
+            string s="";
+            if(coorda1+1 >4){
+                s+= arr[coorda][0];
+            }
+            else {
+                s += arr[coorda][coorda1 + 1];
+            }
+            if(coordb1+1>4){
+                s += arr[coordb][0];
+            }
+            else {
+                s += arr[coordb][coordb1 + 1];
+            }
+            keyMap[i] = s;
+        }
+        else if(coorda1 == coordb1){
+            string s = "";
+            if(coorda+1>4){
+                s += arr[0][coorda1];
+            }
+            else{
+                s += arr[coorda+1][coorda1];
+            }
+            if(coordb+1>4){
+                s += arr[0][coordb1];
+            }
+            else{
+                s += arr[coordb+1][coordb1];
+            }
+            keyMap[i] = s;
+        }
+        else{
+            string s ="";
+            s += arr[coorda][coordb1];
+            s += arr[coordb][coorda1];
+            keyMap[i] = s;
+        }
+    }
+    string enc = "";
+    for(int i = 0;i<keyMap.size();i++){
+        enc += keyMap[i];
+    }
+    return enc;
+}
 void getKey(string arr[5][5],string a){
     string add;
     add = "";
@@ -57,30 +124,32 @@ int main(){
         }
         cout<<endl;
     }
-    vector<string> multArr;
-    for(int i = 0;i<sent.length();i++){
-        string one;
-        cout<<i;
-        cout<<sent[i]<<" "<<sent[i+1]<<endl;
-        if(sent[i] == sent[i+1]){
-            one = sent[i];
-            one +="x";
-            multArr.push_back(one);
-            i++;
+    vector<string> arrProcess;
+    int s = 0;
+    while(s<sent.length()){
+        string x = "";
+        if(sent[s] == sent[s+1]){
+            x += sent[s];
+            x+= 'x';
+            s++;
+            arrProcess.push_back(x);
+            continue;
         }
-        else if(i == sent.length()-1){
-            one = sent[i];
-            one += "x";
-            multArr.push_back(one);
+        else if((s+1) == sent.length()){
+            x += sent[s];
+            x+= 'x';
+            arrProcess.push_back(x);
+            break;
         }
-        else{
-            one = sent[i];
-            one += sent[i+1];
-            multArr.push_back(one);
-            i+=2;
-        }
+        x += sent[s];
+        x += sent[s+1];
+        arrProcess.push_back(x);
+        s +=2;
     }
-    for(int i = 0;i<multArr.size();i++){
-        cout<<multArr.at(i)<<endl;
+    for(int i = 0;i<arrProcess.size();i++){
+        cout<<arrProcess.at(i)<<endl;
     }
+    sent = encrypt(arrProcess,keyArr);
+    cout<<"ENCRYPTED TEXT: "<<endl;
+    cout<<sent;
 }
