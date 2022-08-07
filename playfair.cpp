@@ -11,7 +11,6 @@ string encrypt(vector<string> keyMap,string arr[5][5]){
         int coorda1;
         int coordb;
         int coordb1;
-        cout<<a<<" "<<b<<endl;
         for(int j = 0;j<5;j++){
             for(int k = 0;k<5;k++){
                 if(arr[j][k].find(a)!=-1){
@@ -85,7 +84,6 @@ void getKey(string arr[5][5],string a){
             t++;
         }
     }
-    cout<<arr[1][0]<<endl;
     int m = 97;
     while(m!=123) {
         char c = m;
@@ -145,9 +143,6 @@ int main(){
         x += sent[s+1];
         arrProcess.push_back(x);
         s +=2;
-    }
-    for(int i = 0;i<arrProcess.size();i++){
-        cout<<arrProcess.at(i)<<endl;
     }
     sent = encrypt(arrProcess,keyArr);
     cout<<"ENCRYPTED TEXT: "<<endl;
