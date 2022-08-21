@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Applied_Cryptography">
-				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Applied_Cryptography.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug"/>
+				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Applied_Cryptography.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -43,15 +43,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 Applied_Cryptography"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 Applied_Cryptography"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Applied_Cryptography/fast">
-				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Applied_Cryptography.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug"/>
+				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Applied_Cryptography.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -65,15 +65,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 Applied_Cryptography/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 Applied_Cryptography/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Mono">
-				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Mono.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug"/>
+				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Mono.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -87,15 +87,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mono"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mono"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Mono/fast">
-				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Mono.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug"/>
+				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Mono.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -109,15 +109,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mono/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mono/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="playFair">
-				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/playFair.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug"/>
+				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/playFair.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -131,15 +131,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 playFair"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 playFair"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="playFair/fast">
-				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/playFair.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug"/>
+				<Option output="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/playFair.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -153,33 +153,33 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 playFair/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 playFair/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/Monoalphabetic LAB 2.cpp">
+		<Unit filename="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/Monoalphabetic LAB 2.cpp">
 			<Option target="Mono"/>
 		</Unit>
-		<Unit filename="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/main.cpp">
+		<Unit filename="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/main.cpp">
 			<Option target="Applied_Cryptography"/>
 		</Unit>
-		<Unit filename="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/playfair.cpp">
+		<Unit filename="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/playfair.cpp">
 			<Option target="playFair"/>
 		</Unit>
-		<Unit filename="C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/CMakeLists.txt">
+		<Unit filename="C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

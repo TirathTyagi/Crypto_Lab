@@ -2,6 +2,72 @@
 #include<string>
 #include<vector>
 using namespace std;
+string decrypt(vector<string> keyMap,string arr[5][5]){
+    for(int i = 0;i<keyMap.size();i++){
+        string x = keyMap.at(i);
+        char a = x[0];
+        char b = x[1];
+        int coorda;
+        int coorda1;
+        int coordb;
+        int coordb1;
+        for(int j = 0;j<5;j++){
+            for(int k = 0;k<5;k++){
+                if(arr[j][k].find(a)!=-1){
+                    coorda = j;
+                    coorda1 = k;
+                }
+                if(arr[j][k].find(b)!=-1){
+                    coordb = j;
+                    coordb1 = k;
+                }
+            }
+        }
+        if(coorda == coordb){
+            string s="";
+            if(coorda1-1 <0){
+                s+= arr[coorda][4];
+            }
+            else {
+                s += arr[coorda][coorda1 - 1];
+            }
+            if(coordb1-1<0){
+                s += arr[coordb][4];
+            }
+            else {
+                s += arr[coordb][coordb1 - 1];
+            }
+            keyMap[i] = s;
+        }
+        else if(coorda1 == coordb1){
+            string s = "";
+            if(coorda-1<0){
+                s += arr[4][coorda1];
+            }
+            else{
+                s += arr[coorda-1][coorda1];
+            }
+            if(coordb-1<0){
+                s += arr[4][coordb1];
+            }
+            else{
+                s += arr[coordb-1][coordb1];
+            }
+            keyMap[i] = s;
+        }
+        else{
+            string s ="";
+            s += arr[coorda][coordb1];
+            s += arr[coordb][coorda1];
+            keyMap[i] = s;
+        }
+    }
+    string enc = "";
+    for(int i = 0;i<keyMap.size();i++){
+        enc += keyMap[i];
+    }
+    return enc;
+}
 string encrypt(vector<string> keyMap,string arr[5][5]){
     for(int i = 0;i<keyMap.size();i++){
         string x = keyMap.at(i);
@@ -112,8 +178,10 @@ int main(){
     cout<<"Enter key: "<<endl;
     getline(cin,key);
     string sent;
+    string original;
     cout<<"Enter sentence: "<<endl;
     getline(cin,sent);
+    original = sent;
     string keyArr[5][5];
     getKey(keyArr,key);
     for(int i = 0;i<5;i++){
@@ -123,12 +191,14 @@ int main(){
         cout<<endl;
     }
     vector<string> arrProcess;
+    vector<int> indexForX;
     int s = 0;
     while(s<sent.length()){
         string x = "";
         if(sent[s] == sent[s+1]){
             x += sent[s];
             x+= 'x';
+            indexForX.push_back(s+1);
             s++;
             arrProcess.push_back(x);
             continue;
@@ -136,6 +206,7 @@ int main(){
         else if((s+1) == sent.length()){
             x += sent[s];
             x+= 'x';
+            indexForX.push_back(s+1);
             arrProcess.push_back(x);
             break;
         }
@@ -146,5 +217,33 @@ int main(){
     }
     sent = encrypt(arrProcess,keyArr);
     cout<<"ENCRYPTED TEXT: "<<endl;
-    cout<<sent;
+    cout<<sent<<endl;
+    vector<string> decProcess;
+    string x = "";
+    for(int i = 0;i<sent.length();i++){
+        if(i%2 != 0){
+            x += sent[i];
+            decProcess.push_back(x);
+            x = "";
+        }
+        else{
+            x += sent[i];
+        }
+    }
+    cout<<endl;
+    cout<<"DECRYPTED TEXT: "<<endl;
+    string dec = decrypt(decProcess,keyArr);
+    for(int i = 0;i<indexForX.size();i++){
+        dec.erase(indexForX[i],1);
+    }
+    cout<<dec<<endl;
+    /*cout<<"ARR PROCESS:"<<endl;
+    for(int i = 0;i<arrProcess.size();i++){
+        cout<<arrProcess[i]<<endl;
+    }
+    cout<<"INDEX FOR X: "<<endl;
+    for(int i = 0;i<indexForX.size();i++){
+        cout<<original[indexForX[i]]<<endl;
+        cout<<indexForX[i]<<endl;
+    }*/
 }

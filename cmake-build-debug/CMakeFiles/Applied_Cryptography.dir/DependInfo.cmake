@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/main.cpp" "CMakeFiles/Applied_Cryptography.dir/main.cpp.obj" "gcc" "CMakeFiles/Applied_Cryptography.dir/main.cpp.obj.d"
+  "C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/main.cpp" "CMakeFiles/Applied_Cryptography.dir/main.cpp.obj" "gcc" "CMakeFiles/Applied_Cryptography.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

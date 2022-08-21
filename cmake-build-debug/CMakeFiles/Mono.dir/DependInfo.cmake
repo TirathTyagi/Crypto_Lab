@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/Monoalphabetic LAB 2.cpp" "CMakeFiles/Mono.dir/Monoalphabetic_LAB_2.cpp.obj" "gcc" "CMakeFiles/Mono.dir/Monoalphabetic_LAB_2.cpp.obj.d"
+  "C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/Monoalphabetic LAB 2.cpp" "CMakeFiles/Mono.dir/Monoalphabetic_LAB_2.cpp.obj" "gcc" "CMakeFiles/Mono.dir/Monoalphabetic_LAB_2.cpp.obj.d"
   )
 
 # Targets to which this target links.

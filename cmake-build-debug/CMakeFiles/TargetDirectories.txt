@@ -1,5 +1,5 @@
-C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/CMakeFiles/Applied_Cryptography.dir
-C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/CMakeFiles/Mono.dir
-C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/CMakeFiles/playFair.dir
-C:/Users/Tirath/Desktop/COMP PROG COURSE/Applied_Cryptography/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/CMakeFiles/Applied_Cryptography.dir
+C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/CMakeFiles/Mono.dir
+C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/CMakeFiles/playFair.dir
+C:/Users/Tirath/Desktop/COMP PROG COURSE/Crypto_Lab/cmake-build-debug/CMakeFiles/edit_cache.dir
